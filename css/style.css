@@ -1,0 +1,345 @@
+*{
+    padding: 0;
+    margin: auto;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+.header{
+    background-image: url(../img/bg.png);
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+.container{
+    width: 1140px;
+    margin: auto;
+}
+.nav{
+    display: flex;
+    padding: 40px 0px;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 0px;
+}
+.menu{
+    text-align: right;
+}
+.menu-contact{
+    margin-bottom: 20px;
+
+}
+.menu-contact img{
+    vertical-align: middle;
+}
+.menu-contact p{
+    font-family: 'Montserrat';
+    font-weight: bold;
+    color: saddlebrown;
+    vertical-align: middle;
+    margin-left: 20px;
+    display: inline;
+}
+.menu-list ul li a{
+    color: #3d2514;
+}
+
+.menu-list ul li{
+    display: inline-block;
+    list-style: none;
+    text-align: right;
+    margin-left: 30px;
+    font-weight: 500;
+    font-family: 'Bebas Neue';
+    letter-spacing: 2px ;
+
+}
+.banner{
+    height: 25vh;
+    display: table-cell;
+    vertical-align: middle;
+
+}
+.banner p{
+    font-family: 'Bebas Neue';
+    color: 3d2514;
+    padding: 7px 7px;
+    border: 2px dashed saddlebrown;
+    display: inline-block;
+}
+.banner h1{
+    font-family: 'Alfa Slab One','Times New Roman', Times, serif;
+    color: #3d2514;
+    font-size: 114px;
+    text-shadow:  3px 3px #fee8bc;
+}
+.banner h2{
+    font-family: 'Alfa Slab One';
+    color: #3d2514;
+    font-size: 56px;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px #fff;
+}
+.burger-category {
+    width: 100%;
+    padding: 50px 0;
+}
+.container {
+    width: 1140px;
+    margin: auto;
+}
+.category{
+    display: flex;
+}
+.category .left{
+    position: relative;
+    margin-right: 15px;
+}
+.img-desc{
+    position: absolute;
+    top: 20px;
+    left: 24px;
+}
+.img-desc h3{
+    color: #fff;
+    font-size: 20px ;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Bebas Neue';
+}
+.img-desc h1{
+    color: #fff;
+    font-size: 34px ;
+    letter-spacing: 1px;
+    font-weight: 400;
+    font-family: 'Bebas Neue';
+}
+.category .right{
+    margin-left: 15px;
+
+}
+.img-top{
+    position: relative;
+    margin-bottom: 30px;
+}
+.img-bottom{
+    position: relative;
+    margin-top: 30px;
+
+}
+.burger-desc{
+    margin: 60px 0px;
+}
+.description{
+    margin: 50px;
+    text-align: center;
+}
+.description span{
+    border: none;
+    padding: 10px 30px;
+    background-color: #ffc045;
+    font-family: 'Bebas Neue';
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #3d2514;
+}
+.description h1{
+    font-family: 'Alfa Slab One';
+    letter-spacing: 1px;
+    color: #3d2514;
+    font-weight: 400;
+    margin-top: 40px ;
+    margin-bottom: 6px;
+}
+.description p{
+    font-size: 18px;
+    font-family: 'Montserrat';
+}
+.gallery{
+    display: flex;
+}
+.item{
+    text-align: center;
+}
+.item h1{
+    font-family: 'Bebas Neue';
+    color: #3d2514;
+}
+.item p{
+    font-family: 'Montserrat';
+    padding: 30px;
+}
+.item button{
+    transition: 0.5s;
+}
+.item button{
+    font-family: 'Alfa Slab One';
+    letter-spacing: 2px;
+    font-weight: 600;
+    background-color: #bf2222;
+    color: white;
+    padding: 15px 40px;
+    font-size: 18px;
+    border: none;
+}
+.item button:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.3s ease-in-out;
+}
+.burger-slider{
+    width: 100%;
+    padding: 80px 0;
+}
+.bg-slider{
+    padding: 22px;
+    box-shadow: 10px 10px 20px -4px grey;
+    display: flex;
+}
+.slider-left{
+    margin: 0px;
+    width: 50%;
+    padding: 25px;
+
+}
+.slider-left h3{
+    color:#3d3d3d;
+    font-family: 'Bebas Neue';
+    font-size: 30px;
+}
+.slider-left h1{
+    color: #3d2514;
+    font-family: 'Alfa Slab One';
+    font-size: 42px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.slider-left p{
+    font-family: 'Montserrat';
+    font-size: 20px;
+}
+.slider-right{
+    width: 50%;
+}
+.burger-form{
+    width:100%;
+    background-image: url(../img/bg-2.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 30px 0px;
+}
+.form-header{
+    text-align: center;
+}
+.form-header h3{
+    font-family: 'Bebas Neue';
+    font-size: 24px;
+    font-weight: 600;
+    color: #3d2514;
+}
+.form-header h1{
+    font-family: 'Alfa Slab One';
+    font-size: 42px ;
+    font-weight: 400 ;
+    color:#3d2514;
+    margin-top: 8px;
+}
+.form-header form{
+    margin: 70px 0px;
+}
+.form-header form input{
+    margin: 10px 5px ;
+    padding: 15px 10px;
+    width:25%;
+}
+.form-header form .input-6{
+    background-color: #bf2222;
+    color: white;
+    font-family: 'Alfa Slab One';
+    border: none;
+    width: 25%;
+    
+}
+.footer {
+    background-image: url(../img/footer.png);
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 60vh;
+}
+.footer .footer-details {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.footer .footer-details .left {
+    color: white;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 220px 300px 115px 0px;
+    line-height: 22px;
+    width: 50%;
+    
+}
+.footer .footer-details .right {
+    font-family: 'Bebas Neue';
+    font-weight: 400;
+    color: white;
+    width: 50%;
+    line-height: 32px;
+    letter-spacing: 1px;
+    padding: 125px 0px 0px 0px;
+}
+.footer .footer-details .right .fa-map-marker{
+    padding-right: 12px;
+    font-size: x-large;
+}
+.footer .footer-details .right .fa-envelope{
+    padding-right: 12px;
+    font-size: x-large;
+    margin-top: 10px;
+}
+.footer .footer-bottom{
+    padding-bottom: 100px;
+}
+.footer .footer-bottom .bottom-left{
+    float: left;
+}
+.bottom-left span{
+    font-family: 'Bebas Neue';
+}
+.bottom-right{
+    padding-left: 630px;
+    display: flex;
+}
+.footer-bottom .bottom-right ul li{
+    display: inline-block;
+}
+.footer-bottom .bottom-right ul li a i {
+    color: black;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    font-size: 22px;
+    margin: 0px 5px;
+    border: 2px solid white;
+    transition: 0.5s ease-in-out;
+
+} 
+.footer .footer-bottom .bottom-right ul li a i:hover{
+    transform: scale(1.3) rotate(45deg);
+    border: 2px solid tomato;
+    transition: 0.5s ease-in-out;
+    background-color: transparent;
+    color: teal;
+}   
